@@ -2,6 +2,8 @@ let run_with_input day part input =
   match day, part with
   | 1, 1 -> Days.Day01.part1 input
   | 1, 2 -> Days.Day01.part2 input
+  | 2, 1 -> Days.Day02.part1 input
+  | 2, 2 -> Days.Day02.part2 input
   | day, part -> failwith (Printf.sprintf "Day %d, part %d not implemented" day part)
 ;;
 
