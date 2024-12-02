@@ -1,0 +1,6 @@
+(library
+ (name runner)
+ (public_name aoc.runner)
+ (libraries days core)
+ (flags
+  (-open Core)))
