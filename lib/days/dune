@@ -1,3 +1,4 @@
 (library
  (name days)
- (public_name aoc.days))
+ (public_name aoc.days)
+ (libraries re2))
